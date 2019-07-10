@@ -158,7 +158,7 @@
       <httpcomponents.httpclient.version>4.5.2</httpcomponents.httpclient.version>
       <!-- These properties are used by cucumber tests related code -->
       <cucumber.info.cukes.version>1.2.4</cucumber.info.cukes.version>
-      <cucumber.guice.version>4.0</cucumber.guice.version>
+      <cucumber.guice.version>4.2.1</cucumber.guice.version>
       <unitils.version>3.3</unitils.version>
   </properties>
   <dependencyManagement>
@@ -254,13 +254,13 @@
       <build>
         <pluginManagement>
           <plugins>
-            <plugin >
+            <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-surefire-plugin</artifactId>
               <version>2.19.1</version>
               <configuration>
                 <excludes combine.self="override">
-                  <exclude></exclude>
+                  <exclude/>
                 </excludes>
               </configuration>
             </plugin>
