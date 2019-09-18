@@ -133,7 +133,7 @@
   </scm>
   <properties>
       <awsjavasdk.version>${project.version}</awsjavasdk.version>
-      <jackson.version>2.6.6</jackson.version>
+      <jackson.version>2.10.0.pr3</jackson.version>
       <ion.java.version>1.0.1</ion.java.version>
       <junit.version>4.12</junit.version>
       <easymock.version>3.2</easymock.version>
@@ -254,13 +254,13 @@
       <build>
         <pluginManagement>
           <plugins>
-            <plugin >
+            <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-surefire-plugin</artifactId>
               <version>2.19.1</version>
               <configuration>
                 <excludes combine.self="override">
-                  <exclude></exclude>
+                  <exclude/>
                 </excludes>
               </configuration>
             </plugin>
